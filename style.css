@@ -31,9 +31,29 @@ body { font-family: Tahoma;}
   height: 300px;
   background: #ccc;
   margin: 50px 0;
+  background-image: url(./images/avatar.jpg);
+  background-size: contain;
 }
 
 .contact-info {
-  
   margin: 0 0 50px 0;
+}
+
+.contact-info > div {
+  background-size: 20px;
+  padding-left: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.contact-info__phone {
+  background-image: url(./images/phone.svg);
+}
+
+.contact-info__email {
+  background-image: url(./images/email.svg);
+}
+
+.contact-info__skype {
+  background-image: url(./images/skype.svg);
 }
