@@ -1,0 +1,15 @@
+* { padding: 0; margin: 0 }
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.aside {
+    background: #0d366e;
+    flex-grow: 1;
+}
+
+.content {
+    flex-grow: 3;
+}
