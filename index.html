@@ -82,9 +82,11 @@
               margin: 'auto',
               width: '40%',
               height: '70vh',
+              backgroundColor: 'white',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: '50%',
-              backgroundSize: '90%'
+              backgroundSize: '90%',
+
           });
 
           popupContainer.appendChild(popup);
@@ -105,6 +107,7 @@
                   Object.assign(popup.style, {
                     backgroundImage: 'url(extensions/' + data + ')'
                   });
+
 
                   document.body.appendChild(popupContainer)
               }
