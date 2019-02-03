@@ -10,20 +10,21 @@ body { font-family: Tahoma;}
 .main-container {
     display: flex;
     height: 1000px;
-    width: 1300px;
+    width: 1000px;
     border: 1px solid black;
+    margin: 0 auto;
 }
 
 .aside {
-  padding: 100px;
+  padding: 50px;
   background: #0d366e;
-  width: 350px;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   color: white;
   height: 100vh;
+  position: fixed;
 }
 
 .content {
