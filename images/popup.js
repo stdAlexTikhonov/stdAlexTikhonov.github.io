@@ -25,6 +25,10 @@ popup.onclick = function(e) {
     e.stopPropagation();
 }
 
-document.getElementsByClassName('example').onclick = function(e) {
-    console.log(e.target)
+let elements = document.getElementsByClassName('example')
+
+for (let i = 0; i < elements.length; i++) {
+    elements[i].onclick = function(e) {
+        console.log(e.target)
+    }
 }
