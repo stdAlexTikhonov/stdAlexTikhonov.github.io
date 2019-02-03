@@ -10,7 +10,7 @@ body { font-family: Tahoma;}
 .main-container {
     display: flex;
     height: 1000px;
-    width: 1000px;
+    width: 1300px;
     border: 1px solid black;
 }
 
