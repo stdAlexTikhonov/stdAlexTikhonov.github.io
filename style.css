@@ -86,5 +86,5 @@ body { font-family: Tahoma;}
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: 100%;
+  background-size: contain;
 }
