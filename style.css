@@ -25,9 +25,16 @@ body { font-family: Tahoma;}
   color: white;
   height: 100vh;
   position: fixed;
-  left: 0;
+  left: -300px;
   overflow: auto;
+  transition: left 1s;
 }
+
+.closed {
+  left: 0;
+}
+
+
 
 .content {
     padding: 50px;
@@ -87,4 +94,37 @@ body { font-family: Tahoma;}
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: contain;
+}
+
+.close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(0deg);
+  transition: transform 1s;
+}
+
+.opened {
+  transform: rotate(45deg);
+} 
+
+.close::before {
+  content: '';
+  display: block;
+  border: 1px solid white;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.close::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border: 1px solid white;
+  height: 100%;
+  max-width: 0; 
+  left: 24px;
+  top: 0;
 }

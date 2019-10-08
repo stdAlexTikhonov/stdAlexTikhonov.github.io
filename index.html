@@ -5,7 +5,8 @@
     </head>
     <body>
         <div class="main-container">
-            <div class="aside">
+            <div class="aside" >
+              <div class="close"></div>
               <div class="photo"></div>
               <div class="contact-info">
                   <div class="contact-info__phone">+7(977)449-03-75</div>
@@ -133,6 +134,11 @@
               }
           }
 
+          
+          document.getElementsByClassName('close')[0].addEventListener('click', function(e) {
+              document.getElementsByClassName('aside')[0].classList.toggle('closed');
+              e.target.classList.toggle('opened');
+          });
         </script>
     </body>
 </html>
