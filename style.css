@@ -15,6 +15,38 @@ body { font-family: Tahoma;}
     overflow: auto;
 }
 
+.summary {
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background-color: #7195ff;
+}
+
+.summary div {
+  margin: 10px;
+}
+
+.tools {
+  display: flex;
+  border-radius: 15px;
+  border: 1px solid gray;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tools > div {
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  min-width: 80px;
+  text-align: center;
+}
+
 .aside {
   padding: 50px;
   background: #0d366e;
