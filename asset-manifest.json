@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bb9c4dd.chunk.css",
-    "main.js": "/static/js/main.4dd4ee3a.chunk.js",
-    "main.js.map": "/static/js/main.4dd4ee3a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b6753b08.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b6753b08.js.map",
-    "static/js/2.b3a6b874.chunk.js": "/static/js/2.b3a6b874.chunk.js",
-    "static/js/2.b3a6b874.chunk.js.map": "/static/js/2.b3a6b874.chunk.js.map",
-    "static/js/3.3f679311.chunk.js": "/static/js/3.3f679311.chunk.js",
-    "static/js/3.3f679311.chunk.js.map": "/static/js/3.3f679311.chunk.js.map",
+    "main.css": "/dash_game_3.0/static/css/main.e6c13ad2.css",
+    "main.js": "/dash_game_3.0/static/js/main.4ab9ba00.js",
+    "static/js/787.adcd30ff.chunk.js": "/dash_game_3.0/static/js/787.adcd30ff.chunk.js",
     "index.html": "/index.html",
-    "static/css/main.5bb9c4dd.chunk.css.map": "/static/css/main.5bb9c4dd.chunk.css.map",
-    "static/js/2.b3a6b874.chunk.js.LICENSE.txt": "/static/js/2.b3a6b874.chunk.js.LICENSE.txt",
-    "static/media/avatar.79e60570.jpg": "/static/media/avatar.79e60570.jpg",
-    "static/media/logo.103b5fa1.svg": "/static/media/logo.103b5fa1.svg"
+    "main.e6c13ad2.css.map": "/dash_game_3.0/static/css/main.e6c13ad2.css.map",
+    "main.4ab9ba00.js.map": "/dash_game_3.0/static/js/main.4ab9ba00.js.map",
+    "787.adcd30ff.chunk.js.map": "/dash_game_3.0/static/js/787.adcd30ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b6753b08.js",
-    "static/js/2.b3a6b874.chunk.js",
-    "static/css/main.5bb9c4dd.chunk.css",
-    "static/js/main.4dd4ee3a.chunk.js"
+    "dash_game_3.0/static/css/main.e6c13ad2.css",
+    "dash_game_3.0/static/js/main.4ab9ba00.js"
   ]
 }
